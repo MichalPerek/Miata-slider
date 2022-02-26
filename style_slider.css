@@ -1,0 +1,121 @@
+main{
+    font-family: Montserrat;
+    letter-spacing: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.outerbox{
+    padding: 50px;
+    width: 800px;
+    margin: 0 auto;
+    max-height: auto;
+    border: 3px solid rgb(114, 114, 114);
+    border-radius: 20px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 0 20px grey;
+
+}
+
+#slidertitle{
+    font-size: 32px;
+    max-width: fit-content;
+    margin: 20px auto 40px auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /*background-color: beige; */
+    box-shadow: 0 0 5px grey;
+
+}
+
+
+#cartitle{
+    font-size: 20px;
+    letter-spacing: 1rem;
+    max-width: fit-content;
+    margin: 15px auto 15px auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+.years{
+    display:none;
+    font-size: 15px;
+    letter-spacing: 1rem;
+    max-width: fit-content;
+    margin: 8px auto 8px auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+#slides-container{
+    margin: 10px;
+}
+
+.slide{
+    display: none;
+    width: 100%;
+    /*height: auto;*/
+    flex: 1;
+    height: 425px;  
+    width: 640px;
+    object-fit: scale-down;
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px;
+    /*border: 2px solid black;*/
+    margin: 10px;
+    
+}
+
+.active{
+    display: block;
+}
+
+#toprow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottomrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.arrow{
+    height: 100px;
+    width: 32px;
+    padding: 10px;
+}
+
+#dots {
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 2px;
+  align-items: center;
+}
+
+#dots .dot {
+  width: 12px;
+  height: 12px;
+  background-color: whitesmoke;
+  border: 2px solid black;
+  display: inline-block;
+  border-radius: 100%;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
