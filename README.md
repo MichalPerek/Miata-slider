@@ -12,5 +12,6 @@ https://miata-slider.netlify.app
 To do's:
 
 -add animations for dots and arrows
+-add pointers cursors for buttons
 -rewrite this with React 
 
